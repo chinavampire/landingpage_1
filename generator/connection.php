@@ -12,9 +12,9 @@ $slidertable=$tablehead."slider";
 $stafftable=$tablehead."staff";
 
 $myhost = "localhost";  
-$mydatabase_username = "simplkbd_sw";  
-$mydatabase_password = "sw_15303730131";  
-$mydatabase_name = "simplkbd_sw"; 
+$mydatabase_username = "";  
+$mydatabase_password = "";  
+$mydatabase_name = ""; 
 
 $conn_bak =false;
 $conn = @mysqli_connect($myhost, $mydatabase_username, $mydatabase_password, $mydatabase_name);
